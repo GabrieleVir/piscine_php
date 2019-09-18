@@ -38,17 +38,17 @@ body
 
 .header .reload_a
 {
-    width: 14%;
+    width: 11%;
     display: inline-block;
-    margin-left: 83%;
+    margin-left: 87%;
     margin-top: 3%;
 }
 
 .header .reload_a_2
 {
-    margin-left: 83%;
-    margin-top: 67px;
-    width: 13%;
+    margin-left: 87%;
+    margin-top: 72px;
+    width: 9%;
     display:inline-block;
 }
 
@@ -106,7 +106,7 @@ body
 .second-row-align
 {
     margin-top: 1%;
-    height: 450px;
+    height: 100%;
 }
 
 .left-col
@@ -135,7 +135,7 @@ body
 
 .clickable
 {
-    border: 4px solid red;
+    border: 2px solid red;
     border-radius: 4px;
     margin-left: 20%;
     margin-top: -2%;
@@ -198,7 +198,7 @@ body
     height: 300px;
     border-radius: 7px;
     padding-top: 0.9%;
-    margin-left: 56.5%;
+    margin-left: 29%;
 }
 
 .actions .book
@@ -234,13 +234,12 @@ body
     background-color: rgb(164,251,150);
     z-index: 1;
     width: 28.3%;
-    height: 150px;
+    height: 14%;
+    margin-top: 399px;
+    left: -13.2%;
     position: relative;
     border-radius: 2px;
-    min-width: 385px;
-    max-width: 469px;
-    top: -62px;
-    left: 10%;
+    min-height: 156px;
 }
 
 .green-text .first_p
@@ -250,23 +249,29 @@ body
     margin-top: 1%;
     margin-bottom: 0px;
     height: 33%;
-    font-size: 15px;
-    /* word-spacing: 0.27vw; */
+    font-size: 0.9vw;
+    word-spacing: 0.27vw;
 }
 
 .green-text .question
 {
     font-style: italic;
-    margin-top: 6px;
-    font-size: 17px;
+    margin-top: 0px;
+    font-size: 1.1vw;
     margin-left: 2%;
     margin-bottom: 0px;
 }
 
+.question_ava
+{
+    padding-top: 1%;
+    margin-left: 2%;
+
+}
+
 .entrez
 {
-    font-family: serif;
-    font-size: 32px;
+    font-size: 1.6vw;
 }
 
 /*
@@ -275,18 +280,16 @@ body
 
 .input_txt
 {
-    height: 18px;
+    height: 12px;
     margin-left: 5px;
     width: 74%;
 }
 
 .response_button
 {
-    background-image: linear-gradient(rgb(245, 245, 245), rgb(222, 222, 222));
-    border-radius: 1px;
     width: 15%;
     height: 5%;
-    font-size: 10px;
+    font-size: 0.7vw;
     padding-left: 1%;
     padding-top: 0px;
     margin-left: 1.8%;
@@ -304,6 +307,49 @@ form
     width: 85%;
 }
 
-#ordi {
-    text-shadow: 4px 5px 3px red;
+.red 
+{
+    color:red;
+    font: bold;
+}
+
+button
+{
+    margin-left:2%;
+    padding: 8%;
+    color: green;
+}
+
+.judgment
+{
+    margin: 0;
+    font-size:2vw;
+}
+
+.chaiplu
+{
+    top: 194px;
+    width: 10%;
+    height: 170px;
+    left: 60%;
+}
+
+.xavier
+{
+    top: 161px;
+    width: 10%;
+    height: 170px;
+    left: 46%;
+}
+
+
+#voix_loin
+{
+    font-style: italic;
+    font-size: 10px;
+}
+
+.disc
+{
+    font-size: 14px;
 }
