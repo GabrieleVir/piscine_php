@@ -1,0 +1,4 @@
+SELECT summary,title 
+FROM film
+WHERE summary
+LIKE "%Vincent%";
